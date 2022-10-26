@@ -1,5 +1,13 @@
 *{
-    border: 2px solid red;
+    /*border: 2px solid red;*/
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
 }
 body{
     margin:0;
@@ -34,6 +42,10 @@ input{
 }
 
 .btn{
+    font-size: 1rem;
+    line-height: 1.625;
+    background-color: #1e3268;
+    color: antiquewhite;
     border-radius: 10px;
     box-shadow: 1px 2px gray;
 }
