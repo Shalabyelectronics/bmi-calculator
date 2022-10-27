@@ -12,13 +12,15 @@
 </head>
 <body>
     <h1>BMI Calculator</h1>
-    <form method="post">
+    <form class='form' method="post">
         <label for="weight">Add your weight</label>
-        <input type="number" inputmode="numeric" step="0.01" name="weight" placeholder="as kilogram">
-        <label for="weight">Add your weight</label>
-        <input type="number" name="height" step="0.01" placeholder="as meter">
+        <input type="number" inputmode="numeric" step="0.01" name="weight" placeholder="as kilogram" required>
+        <label for="height">Add your height</label>
+        <input type="number" name="height" step="0.01" placeholder="as meter" required>
         <input class="btn" type="submit" name="submit" value="Calculate">
     </form>
     <h6><a href="http://shalaby.tech" target="_blank">www.shalaby.tech</a></h6>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
